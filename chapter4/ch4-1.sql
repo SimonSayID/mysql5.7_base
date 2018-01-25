@@ -1,0 +1,11 @@
+USE `cookbook`;
+
+SET @s = CONVERT('abc' USING utf8);
+SELECT LENGTH(@s), CHAR_LENGTH(@s);
+
+SET @s = CONVERT('abc' USING ucs2);
+SELECT LENGTH(@s), CHAR_LENGTH(@s);
+
+SHOW COLLATION LIKE 'latin1%';
+
+SHOW CHARACTER SET;

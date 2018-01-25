@@ -1,0 +1,40 @@
++--------------+--------------+--------------+
+| thing        | UPPER(thing) | LOWER(thing) |
++--------------+--------------+--------------+
+| human        | HUMAN        | human        |
+| insect       | INSECT       | insect       |
+| squid        | SQUID        | squid        |
+| fish         | FISH         | fish         |
+| centipede    | CENTIPEDE    | centipede    |
+| table        | TABLE        | table        |
+| armchair     | ARMCHAIR     | armchair     |
+| phonograph   | PHONOGRAPH   | phonograph   |
+| tripod       | TRIPOD       | tripod       |
+| Peg Leg Pete | PEG LEG PETE | peg leg pete |
+| space alien  | SPACE ALIEN  | space alien  |
++--------------+--------------+--------------+
++------+----------+----------+
+| b    | UPPER(b) | LOWER(b) |
++------+----------+----------+
+| aBcD | aBcD     | aBcD     |
++------+----------+----------+
++------+-------+-------+
+| b    | upper | lower |
++------+-------+-------+
+| aBcD | ABCD  | abcd  |
++------+-------+-------+
++--------------+--------------------+
+| thing        | initial_cap(thing) |
++--------------+--------------------+
+| human        | Human              |
+| insect       | Insect             |
+| squid        | Squid              |
+| fish         | Fish               |
+| centipede    | Centipede          |
+| table        | Table              |
+| armchair     | Armchair           |
+| phonograph   | Phonograph         |
+| tripod       | Tripod             |
+| Peg Leg Pete | Peg Leg Pete       |
+| space alien  | Space alien        |
++--------------+--------------------+
