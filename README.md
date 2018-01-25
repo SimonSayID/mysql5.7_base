@@ -1,4 +1,4 @@
 # mysql5.7_base
 
-### book note
+## study notes
 only for personal use
