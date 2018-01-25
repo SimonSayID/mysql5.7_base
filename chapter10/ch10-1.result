@@ -1,0 +1,57 @@
++----------------------+------+
+| c1                   | c2   |
++----------------------+------+
+| abc:defghi:jklm n: | NULL |
++----------------------+------+
++--------+--------+
+| c1     | c2     |
++--------+--------+
+| abc    | def    |
+| ghi    | jkl    |
+| m n    | o p    |
+| "m""n" | "o""p" |
++--------+--------+
++------+------+
+| c1   | c2   |
++------+------+
+| abc  | def  |
+| ghi  | jkl  |
+| m n  | o p  |
+| m"n  | o"p  |
++------+------+
++---------+------+----------------------------------------------------------------+
+| Level   | Code | Message                                                        |
++---------+------+----------------------------------------------------------------+
+| Warning | 1265 | Data truncated for column 'i' at row 1                         |
+| Warning | 1261 | Row 1 doesn't contain data for all columns                     |
+| Warning | 1261 | Row 1 doesn't contain data for all columns                     |
+| Warning | 1366 | Incorrect integer value: 'abc,abc,abc' for column 'i' at row 2 |
+| Warning | 1261 | Row 2 doesn't contain data for all columns                     |
+| Warning | 1261 | Row 2 doesn't contain data for all columns                     |
+| Warning | 1265 | Data truncated for column 'i' at row 3                         |
+| Warning | 1261 | Row 3 doesn't contain data for all columns                     |
+| Warning | 1261 | Row 3 doesn't contain data for all columns                     |
++---------+------+----------------------------------------------------------------+
++------+------+------+
+| i    | c    | d    |
++------+------+------+
+|    1 | NULL | NULL |
+|    0 | NULL | NULL |
+| 2010 | NULL | NULL |
++------+------+------+
++---------------------+-----------+------------+-----------+-----------+
+| dt                  | last_name | first_name | weight_kg | st_abbrev |
++---------------------+-----------+------------+-----------+-----------+
+| 2006-09-01 12:00:00 | Wills     | Bill       |      90.8 | NV        |
+| 2006-09-02 09:00:00 | Deft      | Jeff       |      68.1 | OK        |
+| 2006-09-04 03:00:00 | Hobbs     | Bob        |    102.15 | UT        |
+| 2006-09-07 08:00:00 | Banks     | Hank       |     79.45 | TX        |
++---------------------+-----------+------------+-----------+-----------+
++---------------------+-----------+------------+-----------+-----------+
+| dt                  | last_name | first_name | weight_kg | st_abbrev |
++---------------------+-----------+------------+-----------+-----------+
+| 2006-09-01 12:00:00 | Wills     | Bill       |      NULL | NV        |
+| 2006-09-02 09:00:00 | Deft      | Jeff       |      NULL | OK        |
+| 2006-09-04 03:00:00 | Hobbs     | Bob        |      NULL | UT        |
+| 2006-09-07 08:00:00 | Banks     | Hank       |      NULL | TX        |
++---------------------+-----------+------------+-----------+-----------+

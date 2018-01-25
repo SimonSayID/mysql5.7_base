@@ -1,0 +1,5 @@
+Date 		Time 	 	Name 	 Weight 	State
+2006-09-01	12:00:00	Bill Wills	200	Nevada
+2006-09-02	09:00:00	Jeff Deft	150	Oklahoma
+2006-09-04	03:00:00	Bob Hobbs	225	Utah
+2006-09-07	08:00:00	Hank Banks	175	Texas
