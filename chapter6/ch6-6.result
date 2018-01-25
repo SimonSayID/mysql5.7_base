@@ -1,0 +1,130 @@
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| BED00038SG | bedside lamp     |
+| BTH00415JP | lavatory         |
+| BTH00485US | shower stall     |
+| DIN40672US | dining table     |
+| KIT00372UK | garbage disposal |
+| KIT01729JP | microwave oven   |
++------------+------------------+
++------------+----------+--------+---------+
+| id         | category | serial | country |
++------------+----------+--------+---------+
+| DIN40672US | DIN      | 40672  | US      |
+| KIT00372UK | KIT      | 00372  | UK      |
+| KIT01729JP | KIT      | 01729  | JP      |
+| BED00038SG | BED      | 00038  | SG      |
+| BTH00485US | BTH      | 00485  | US      |
+| BTH00415JP | BTH      | 00415  | JP      |
++------------+----------+--------+---------+
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| BED00038SG | bedside lamp     |
+| BTH00485US | shower stall     |
+| BTH00415JP | lavatory         |
+| DIN40672US | dining table     |
+| KIT00372UK | garbage disposal |
+| KIT01729JP | microwave oven   |
++------------+------------------+
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| BED00038SG | bedside lamp     |
+| KIT00372UK | garbage disposal |
+| BTH00415JP | lavatory         |
+| BTH00485US | shower stall     |
+| KIT01729JP | microwave oven   |
+| DIN40672US | dining table     |
++------------+------------------+
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| BTH00415JP | lavatory         |
+| KIT01729JP | microwave oven   |
+| BED00038SG | bedside lamp     |
+| KIT00372UK | garbage disposal |
+| BTH00485US | shower stall     |
+| DIN40672US | dining table     |
++------------+------------------+
++------------+---------------------------------------------------------+
+| id         | LEFT(SUBSTRING(id, 4), CHAR_LENGTH(SUBSTRING(id, 4)-2)) |
++------------+---------------------------------------------------------+
+| DIN40672US | 40672                                                   |
+| KIT372UK   | 372                                                     |
+| KIT1729JP  | 1729                                                    |
+| BED38SG    | 38                                                      |
+| BTH485US   | 485                                                     |
+| BTH415JP   | 415                                                     |
++------------+---------------------------------------------------------+
++------------+------------------+-------------------------------------+
+| id         | SUBSTRING(id, 4) | SUBSTRING(id, 4, CHAR_LENGTH(id)-5) |
++------------+------------------+-------------------------------------+
+| DIN40672US | 40672US          | 40672                               |
+| KIT372UK   | 372UK            | 372                                 |
+| KIT1729JP  | 1729JP           | 1729                                |
+| BED38SG    | 38SG             | 38                                  |
+| BTH485US   | 485US            | 485                                 |
+| BTH415JP   | 415JP            | 415                                 |
++------------+------------------+-------------------------------------+
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| KIT1729JP  | microwave oven   |
+| KIT372UK   | garbage disposal |
+| BED38SG    | bedside lamp     |
+| DIN40672US | dining table     |
+| BTH415JP   | lavatory         |
+| BTH485US   | shower stall     |
++------------+------------------+
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| BED38SG    | bedside lamp     |
+| KIT372UK   | garbage disposal |
+| BTH415JP   | lavatory         |
+| BTH485US   | shower stall     |
+| KIT1729JP  | microwave oven   |
+| DIN40672US | dining table     |
++------------+------------------+
++------------+------------------+
+| id         | description      |
++------------+------------------+
+| BED38SG    | bedside lamp     |
+| KIT372UK   | garbage disposal |
+| BTH415JP   | lavatory         |
+| BTH485US   | shower stall     |
+| KIT1729JP  | microwave oven   |
+| DIN40672US | dining table     |
++------------+------------------+
++---------------+----------+----------+
+| id            | segment2 | segment4 |
++---------------+----------+----------+
+| 13-478-92-2   | 478      | 2        |
+| 873-48-649-63 | 48       | 63       |
+| 8-4-2-1       | 4        | 1        |
+| 97-681-37-66  | 681      | 66       |
+| 27-48-534-2   | 48       | 2        |
+| 5764-56-89-72 | 56       | 72       |
++---------------+----------+----------+
++---------------+------------------+
+| id            | description      |
++---------------+------------------+
+| 8-4-2-1       | microwave oven   |
+| 13-478-92-2   | dining table     |
+| 873-48-649-63 | garbage disposal |
+| 27-48-534-2   | shower stall     |
+| 5764-56-89-72 | lavatory         |
+| 97-681-37-66  | bedside lamp     |
++---------------+------------------+
++---------------+------------------+
+| id            | description      |
++---------------+------------------+
+| 8-4-2-1       | microwave oven   |
+| 873-48-649-63 | garbage disposal |
+| 27-48-534-2   | shower stall     |
+| 5764-56-89-72 | lavatory         |
+| 13-478-92-2   | dining table     |
+| 97-681-37-66  | bedside lamp     |
++---------------+------------------+

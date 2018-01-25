@@ -1,0 +1,40 @@
++--------------------+
+| name               |
++--------------------+
+| dbi.perl.org       |
+| jakarta.apache.org |
+| lists.mysql.com    |
+| mysql.com          |
+| svn.php.net        |
+| www.kitebird.com   |
++--------------------+
++--------------------+----------+----------+-----------+
+| name               | leftmost | middle   | rightmost |
++--------------------+----------+----------+-----------+
+| svn.php.net        | svn      | php      | net       |
+| dbi.perl.org       | dbi      | perl     | org       |
+| lists.mysql.com    | lists    | mysql    | com       |
+| mysql.com          | mysql    | mysql    | com       |
+| jakarta.apache.org | jakarta  | apache   | org       |
+| www.kitebird.com   | www      | kitebird | com       |
++--------------------+----------+----------+-----------+
++--------------------+----------+----------+-----------+
+| name               | leftmost | middle   | rightmost |
++--------------------+----------+----------+-----------+
+| svn.php.net        | svn      | php      | net       |
+| dbi.perl.org       | dbi      | perl     | org       |
+| lists.mysql.com    | lists    | mysql    | com       |
+| mysql.com          |          | mysql    | com       |
+| jakarta.apache.org | jakarta  | apache   | org       |
+| www.kitebird.com   | www      | kitebird | com       |
++--------------------+----------+----------+-----------+
++--------------------+
+| name               |
++--------------------+
+| dbi.perl.org       |
+| jakarta.apache.org |
+| lists.mysql.com    |
+| mysql.com          |
+| svn.php.net        |
+| www.kitebird.com   |
++--------------------+
