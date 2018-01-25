@@ -1,0 +1,59 @@
++----+-------------------+------------+------------+
+| id | name              | date       | origin     |
++----+-------------------+------------+------------+
+|  1 | housefly          | 2014-09-10 | kitchen    |
+|  3 | grasshopper       | 2014-09-10 | front yard |
+|  4 | stink bug         | 2014-09-10 | front yard |
+|  5 | cabbage butterfly | 2014-09-10 | garden     |
+|  6 | ant               | 2014-09-10 | back yard  |
+|  9 | cricket           | 2014-09-11 | basement   |
++----+-------------------+------------+------------+
+*************************** 1. row ***************************
+       Table: insect
+Create Table: CREATE TABLE `insect` (
+  `name` varchar(30) NOT NULL,
+  `date` date NOT NULL,
+  `origin` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+*************************** 1. row ***************************
+       Table: insect
+Create Table: CREATE TABLE `insect` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  `date` date NOT NULL,
+  `origin` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1
++----+-------------------+------------+------------+
+| id | name              | date       | origin     |
++----+-------------------+------------+------------+
+|  1 | housefly          | 2014-09-10 | kitchen    |
+|  2 | grasshopper       | 2014-09-10 | front yard |
+|  3 | stink bug         | 2014-09-10 | front yard |
+|  4 | cabbage butterfly | 2014-09-10 | garden     |
+|  5 | ant               | 2014-09-10 | back yard  |
+|  6 | cricket           | 2014-09-11 | basement   |
++----+-------------------+------------+------------+
++----+-------------------+------------+------------+
+| id | name              | date       | origin     |
++----+-------------------+------------+------------+
+|  3 | stink bug         | 2014-09-10 | front yard |
+|  4 | cabbage butterfly | 2014-09-10 | garden     |
+|  6 | cricket           | 2014-09-11 | basement   |
++----+-------------------+------------+------------+
+*************************** 1. row ***************************
+       Table: insect
+Create Table: CREATE TABLE `insect` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  `date` date NOT NULL,
+  `origin` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1
++----+-------------------+------------+------------+
+| id | name              | date       | origin     |
++----+-------------------+------------+------------+
+|  1 | stink bug         | 2014-09-10 | front yard |
+|  2 | cabbage butterfly | 2014-09-10 | garden     |
+|  3 | cricket           | 2014-09-11 | basement   |
++----+-------------------+------------+------------+
