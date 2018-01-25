@@ -1,0 +1,70 @@
++-------------+------+--------+
+| team        | wins | losses |
++-------------+------+--------+
+| Winnipeg    |   37 |     20 |
+| Crookston   |   31 |     25 |
+| Fargo       |   30 |     26 |
+| Grand Forks |   28 |     26 |
+| Devils Lake |   19 |     31 |
+| Cavalier    |   15 |     32 |
++-------------+------+--------+
++-------------+------+------+--------+---------+
+| team        | W    | L    | PCT    | GB      |
++-------------+------+------+--------+---------+
+| Winnipeg    |   37 |   20 | 0.6491 |  0.0000 |
+| Crookston   |   31 |   25 | 0.5536 |  5.5000 |
+| Fargo       |   30 |   26 | 0.5357 |  6.5000 |
+| Grand Forks |   28 |   26 | 0.5185 |  7.5000 |
+| Devils Lake |   19 |   31 | 0.3800 | 14.5000 |
+| Cavalier    |   15 |   32 | 0.3191 | 17.0000 |
++-------------+------+------+--------+---------+
++-------------+------+------+-------+------+
+| team        | W    | L    | PCT   | GB   |
++-------------+------+------+-------+------+
+| Winnipeg    |   37 |   20 | 0.649 | -    |
+| Crookston   |   31 |   25 | 0.553 | 5.5  |
+| Fargo       |   30 |   26 | 0.535 | 6.5  |
+| Grand Forks |   28 |   26 | 0.518 | 7.5  |
+| Devils Lake |   19 |   31 | 0.380 | 14.5 |
+| Cavalier    |   15 |   32 | 0.319 | 17.0 |
++-------------+------+------+-------+------+
++------+----------+-----------------+------+--------+
+| half | division | team            | wins | losses |
++------+----------+-----------------+------+--------+
+|    1 | Eastern  | St. Paul        |   24 |     18 |
+|    1 | Eastern  | Thunder Bay     |   18 |     24 |
+|    1 | Eastern  | Duluth-Superior |   17 |     24 |
+|    1 | Eastern  | Madison         |   15 |     27 |
+|    1 | Western  | Winnipeg        |   29 |     12 |
+|    1 | Western  | Sioux City      |   28 |     14 |
+|    1 | Western  | Fargo-Moorhead  |   21 |     21 |
+|    1 | Western  | Sioux Falls     |   15 |     27 |
+|    2 | Eastern  | Duluth-Superior |   22 |     20 |
+|    2 | Eastern  | St. Paul        |   21 |     21 |
+|    2 | Eastern  | Madison         |   19 |     23 |
+|    2 | Eastern  | Thunder Bay     |   18 |     24 |
+|    2 | Western  | Fargo-Moorhead  |   26 |     16 |
+|    2 | Western  | Winnipeg        |   24 |     18 |
+|    2 | Western  | Sioux City      |   22 |     20 |
+|    2 | Western  | Sioux Falls     |   16 |     26 |
++------+----------+-----------------+------+--------+
++------+----------+-----------------+------+------+-------+------+
+| half | division | team            | W    | L    | PCT   | GB   |
++------+----------+-----------------+------+------+-------+------+
+|    1 | Eastern  | St. Paul        |   24 |   18 | 0.571 | -    |
+|    1 | Eastern  | Thunder Bay     |   18 |   24 | 0.428 | 6.0  |
+|    1 | Eastern  | Duluth-Superior |   17 |   24 | 0.414 | 6.5  |
+|    1 | Eastern  | Madison         |   15 |   27 | 0.357 | 9.0  |
+|    1 | Western  | Winnipeg        |   29 |   12 | 0.707 | -    |
+|    1 | Western  | Sioux City      |   28 |   14 | 0.666 | 1.5  |
+|    1 | Western  | Fargo-Moorhead  |   21 |   21 | 0.500 | 8.5  |
+|    1 | Western  | Sioux Falls     |   15 |   27 | 0.357 | 14.5 |
+|    2 | Eastern  | Duluth-Superior |   22 |   20 | 0.523 | -    |
+|    2 | Eastern  | St. Paul        |   21 |   21 | 0.500 | 1.0  |
+|    2 | Eastern  | Madison         |   19 |   23 | 0.452 | 3.0  |
+|    2 | Eastern  | Thunder Bay     |   18 |   24 | 0.428 | 4.0  |
+|    2 | Western  | Fargo-Moorhead  |   26 |   16 | 0.619 | -    |
+|    2 | Western  | Winnipeg        |   24 |   18 | 0.571 | 2.0  |
+|    2 | Western  | Sioux City      |   22 |   20 | 0.523 | 4.0  |
+|    2 | Western  | Sioux Falls     |   16 |   26 | 0.380 | 10.0 |
++------+----------+-----------------+------+------+-------+------+
