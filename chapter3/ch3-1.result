@@ -1,0 +1,40 @@
++-------+-------------------------------------------------------------+------+-----+---------+----------------+
+| Field | Type                                                        | Null | Key | Default | Extra          |
++-------+-------------------------------------------------------------+------+-----+---------+----------------+
+| id    | int(10) unsigned                                            | NO   | PRI | NULL    | auto_increment |
+| name  | varchar(20)                                                 | NO   |     | NULL    |                |
+| birth | date                                                        | YES  |     | NULL    |                |
+| color | enum('blue','red','green','brown','black','white')          | YES  |     | NULL    |                |
+| foods | set('lutefisk','burrito','curry','eggroll','fadge','pizza') | YES  |     | NULL    |                |
+| cats  | int(11)                                                     | YES  |     | NULL    |                |
++-------+-------------------------------------------------------------+------+-----+---------+----------------+
++----+-------+------------+-------+---------------+------+
+| id | name  | birth      | color | foods         | cats |
++----+-------+------------+-------+---------------+------+
+|  3 | Ralph | 1973-11-02 | red   | eggroll,pizza |    4 |
+|  5 | Henry | 1965-02-14 | red   | curry,fadge   |    1 |
++----+-------+------------+-------+---------------+------+
++----+---------+-------+
+| id | name    | color |
++----+---------+-------+
+|  1 | Sybil   | black |
+|  2 | Nancy   | white |
+|  3 | Ralph   | red   |
+|  4 | Lothair | blue  |
+|  5 | Henry   | red   |
+|  6 | Aaron   | green |
+|  7 | Joanna  | green |
+|  8 | Stephen | white |
++----+---------+-------+
++----+---------+-------+
+| id | name    | color |
++----+---------+-------+
+|  1 | Sybil   | black |
+|  2 | Nancy   | white |
+|  3 | Ralph   | red   |
+|  4 | Lothair | blue  |
+|  5 | Henry   | red   |
+|  6 | Aaron   | green |
+|  7 | Joanna  | green |
+|  8 | Stephen | white |
++----+---------+-------+
