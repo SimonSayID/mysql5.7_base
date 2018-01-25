@@ -1,0 +1,33 @@
++------+----------------------------+---------------+
+| year | movie                      | actor         |
++------+----------------------------+---------------+
+| 1997 | The Fifth Element          | Bruce Willis  |
+| 1997 | The Fifth Element          | Gary Oldman   |
+| 1997 | The Fifth Element          | Ian Holm      |
+| 1999 | The Phantom Menace         | Ewan McGregor |
+| 1999 | The Phantom Menace         | Liam Neeson   |
+| 2001 | The Fellowship of the Ring | Elijah Wood   |
+| 2001 | The Fellowship of the Ring | Ian Holm      |
+| 2001 | The Fellowship of the Ring | Ian McKellen  |
+| 2001 | The Fellowship of the Ring | Orlando Bloom |
+| 2005 | Kingdom of Heaven          | Liam Neeson   |
+| 2005 | Kingdom of Heaven          | Orlando Bloom |
+| 2010 | Red                        | Bruce Willis  |
+| 2010 | Red                        | Helen Mirren  |
+| 2011 | Unknown                    | Diane Kruger  |
+| 2011 | Unknown                    | Liam Neeson   |
++------+----------------------------+---------------+
++---------------+
+| actor         |
++---------------+
+| Elijah Wood   |
+| Ian Holm      |
+| Ian McKellen  |
+| Orlando Bloom |
++---------------+
++-------------------+
+| movie             |
++-------------------+
+| The Fifth Element |
+| Red               |
++-------------------+

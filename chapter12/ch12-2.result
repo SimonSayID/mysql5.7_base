@@ -1,0 +1,120 @@
++------+----------+------+------+-------------------+-------+-------+
+| a_id | name     | a_id | p_id | title             | state | price |
++------+----------+------+------+-------------------+-------+-------+
+|    1 | Da Vinci |    1 |    2 | Mona Lisa         | MI    |    87 |
+|    1 | Da Vinci |    3 |    4 | The Potato Eaters | KY    |    67 |
+|    1 | Da Vinci |    4 |    5 | Les Deux Soeurs   | NE    |    64 |
+|    1 | Da Vinci |    1 |    1 | The Last Supper   | IN    |    34 |
+|    1 | Da Vinci |    3 |    3 | Starry Night      | KY    |    48 |
+|    2 | Monet    |    4 |    5 | Les Deux Soeurs   | NE    |    64 |
+|    2 | Monet    |    1 |    1 | The Last Supper   | IN    |    34 |
+|    2 | Monet    |    3 |    3 | Starry Night      | KY    |    48 |
+|    2 | Monet    |    1 |    2 | Mona Lisa         | MI    |    87 |
+|    2 | Monet    |    3 |    4 | The Potato Eaters | KY    |    67 |
+|    3 | Van Gogh |    4 |    5 | Les Deux Soeurs   | NE    |    64 |
+|    3 | Van Gogh |    1 |    1 | The Last Supper   | IN    |    34 |
+|    3 | Van Gogh |    3 |    3 | Starry Night      | KY    |    48 |
+|    3 | Van Gogh |    3 |    4 | The Potato Eaters | KY    |    67 |
+|    3 | Van Gogh |    1 |    2 | Mona Lisa         | MI    |    87 |
+|    4 | Renoir   |    3 |    4 | The Potato Eaters | KY    |    67 |
+|    4 | Renoir   |    1 |    2 | Mona Lisa         | MI    |    87 |
+|    4 | Renoir   |    4 |    5 | Les Deux Soeurs   | NE    |    64 |
+|    4 | Renoir   |    1 |    1 | The Last Supper   | IN    |    34 |
+|    4 | Renoir   |    3 |    3 | Starry Night      | KY    |    48 |
++------+----------+------+------+-------------------+-------+-------+
++------+----------+------+------+-------------------+-------+-------+
+| a_id | name     | a_id | p_id | title             | state | price |
++------+----------+------+------+-------------------+-------+-------+
+|    1 | Da Vinci |    1 |    2 | Mona Lisa         | MI    |    87 |
+|    1 | Da Vinci |    1 |    1 | The Last Supper   | IN    |    34 |
+|    3 | Van Gogh |    3 |    4 | The Potato Eaters | KY    |    67 |
+|    3 | Van Gogh |    3 |    3 | Starry Night      | KY    |    48 |
+|    4 | Renoir   |    4 |    5 | Les Deux Soeurs   | NE    |    64 |
++------+----------+------+------+-------------------+-------+-------+
++------+----------+------+------+-------------------+-------+-------+
+| a_id | name     | a_id | p_id | title             | state | price |
++------+----------+------+------+-------------------+-------+-------+
+|    1 | Da Vinci |    1 |    1 | The Last Supper   | IN    |    34 |
+|    1 | Da Vinci |    1 |    2 | Mona Lisa         | MI    |    87 |
+|    3 | Van Gogh |    3 |    3 | Starry Night      | KY    |    48 |
+|    3 | Van Gogh |    3 |    4 | The Potato Eaters | KY    |    67 |
+|    4 | Renoir   |    4 |    5 | Les Deux Soeurs   | NE    |    64 |
++------+----------+------+------+-------------------+-------+-------+
++------+----------+------+-------------------+-------+-------+
+| a_id | name     | p_id | title             | state | price |
++------+----------+------+-------------------+-------+-------+
+|    1 | Da Vinci |    2 | Mona Lisa         | MI    |    87 |
+|    1 | Da Vinci |    1 | The Last Supper   | IN    |    34 |
+|    3 | Van Gogh |    4 | The Potato Eaters | KY    |    67 |
+|    3 | Van Gogh |    3 | Starry Night      | KY    |    48 |
+|    4 | Renoir   |    5 | Les Deux Soeurs   | NE    |    64 |
++------+----------+------+-------------------+-------+-------+
++----------+-------------------+-------+-------+
+| name     | title             | state | price |
++----------+-------------------+-------+-------+
+| Van Gogh | Starry Night      | KY    |    48 |
+| Van Gogh | The Potato Eaters | KY    |    67 |
++----------+-------------------+-------+-------+
++----------+-------------------+----------+-------+
+| name     | title             | name     | price |
++----------+-------------------+----------+-------+
+| Van Gogh | Starry Night      | Kentucky |    48 |
+| Van Gogh | The Potato Eaters | Kentucky |    67 |
++----------+-------------------+----------+-------+
++-------------------+
+| title             |
++-------------------+
+| Starry Night      |
+| The Potato Eaters |
++-------------------+
++----------+
+| name     |
++----------+
+| Da Vinci |
++----------+
++----------+
+| name     |
++----------+
+| Da Vinci |
+| Van Gogh |
++----------+
++----------+---------------------+
+| name     | number of paintings |
++----------+---------------------+
+| Da Vinci |                   2 |
+| Renoir   |                   1 |
+| Van Gogh |                   2 |
++----------+---------------------+
++----------+---------------------+-------------+---------------+
+| name     | number of paintings | total price | average price |
++----------+---------------------+-------------+---------------+
+| Da Vinci |                   2 |         121 |       60.5000 |
+| Renoir   |                   1 |          64 |       64.0000 |
+| Van Gogh |                   2 |         115 |       57.5000 |
++----------+---------------------+-------------+---------------+
++----------+---------------------+-------------+---------------+
+| name     | number of paintings | total price | average price |
++----------+---------------------+-------------+---------------+
+| Da Vinci |                   2 |         121 |       60.5000 |
+| Monet    |                   1 |        NULL |          NULL |
+| Renoir   |                   1 |          64 |       64.0000 |
+| Van Gogh |                   2 |         115 |       57.5000 |
++----------+---------------------+-------------+---------------+
++----------+-------------------+-------+
+| name     | title             | state |
++----------+-------------------+-------+
+| Da Vinci | Mona Lisa         | MI    |
+| Da Vinci | The Last Supper   | IN    |
+| Renoir   | Les Deux Soeurs   | NE    |
+| Van Gogh | The Potato Eaters | KY    |
+| Van Gogh | Starry Night      | KY    |
++----------+-------------------+-------+
++----------+-------------------+----------+-------+
+| name     | title             | name     | price |
++----------+-------------------+----------+-------+
+| Da Vinci | The Last Supper   | Indiana  |    34 |
+| Da Vinci | Mona Lisa         | Michigan |    87 |
+| Van Gogh | Starry Night      | Kentucky |    48 |
+| Van Gogh | The Potato Eaters | Kentucky |    67 |
+| Renoir   | Les Deux Soeurs   | Nebraska |    64 |
++----------+-------------------+----------+-------+

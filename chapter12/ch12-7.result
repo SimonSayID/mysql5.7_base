@@ -1,0 +1,62 @@
++------+----------------------------+---------------+
+| year | movie                      | actor         |
++------+----------------------------+---------------+
+| 2005 | Kingdom of Heaven          | Liam Neeson   |
+| 2005 | Kingdom of Heaven          | Orlando Bloom |
+| 1997 | The Fifth Element          | Bruce Willis  |
+| 1997 | The Fifth Element          | Gary Oldman   |
+| 1997 | The Fifth Element          | Ian Holm      |
+| 1999 | The Phantom Menace         | Ewan McGregor |
+| 1999 | The Phantom Menace         | Liam Neeson   |
+| 2001 | The Fellowship of the Ring | Ian McKellen  |
+| 2001 | The Fellowship of the Ring | Ian Holm      |
+| 2001 | The Fellowship of the Ring | Orlando Bloom |
+| 2001 | The Fellowship of the Ring | Elijah Wood   |
+| 2010 | Red                        | Helen Mirren  |
+| 2010 | Red                        | Bruce Willis  |
+| 2011 | Unknown                    | Diane Kruger  |
+| 2011 | Unknown                    | Liam Neeson   |
++------+----------------------------+---------------+
++----+------+----------------------------+
+| id | year | movie                      |
++----+------+----------------------------+
+|  1 | 1997 | The Fifth Element          |
+|  2 | 1999 | The Phantom Menace         |
+|  3 | 2001 | The Fellowship of the Ring |
+|  4 | 2005 | Kingdom of Heaven          |
+|  5 | 2010 | Red                        |
+|  6 | 2011 | Unknown                    |
++----+------+----------------------------+
++----+---------------+
+| id | actor         |
++----+---------------+
+|  1 | Bruce Willis  |
+|  2 | Diane Kruger  |
+|  3 | Elijah Wood   |
+|  4 | Ewan McGregor |
+|  5 | Gary Oldman   |
+|  6 | Helen Mirren  |
+|  7 | Ian Holm      |
+|  8 | Ian McKellen  |
+|  9 | Liam Neeson   |
+| 10 | Orlando Bloom |
++----+---------------+
++----------+----------+
+| movie_id | actor_id |
++----------+----------+
+|        1 |        1 |
+|        1 |        5 |
+|        1 |        7 |
+|        2 |        4 |
+|        2 |        9 |
+|        3 |        3 |
+|        3 |        7 |
+|        3 |        8 |
+|        3 |       10 |
+|        4 |        9 |
+|        4 |       10 |
+|        5 |        1 |
+|        5 |        6 |
+|        6 |        2 |
+|        6 |        9 |
++----------+----------+
