@@ -1,0 +1,122 @@
++------------+----------+--------------+
+| profile_id | service  | contact_name |
++------------+----------+--------------+
+|          1 | Facebook | user1-fbid   |
+|          1 | Twitter  | user1-twtrid |
+|          2 | Facebook | user2-msnid  |
+|          2 | LinkedIn | user2-lnkdid |
+|          2 | Twitter  | user2-fbrid  |
+|          4 | LinkedIn | user4-lnkdid |
++------------+----------+--------------+
++----+---------+------------+-------+-----------------------+------+
+| id | name    | birth      | color | foods                 | cats |
++----+---------+------------+-------+-----------------------+------+
+|  1 | Sybil   | 1970-04-13 | black | lutefisk,fadge,pizza  |    0 |
+|  2 | Nancy   | 1969-09-30 | white | burrito,curry,eggroll |    3 |
+|  3 | Ralph   | 1973-11-02 | red   | eggroll,pizza         |    4 |
+|  4 | Lothair | 1963-07-04 | blue  | burrito,curry         |    5 |
+|  5 | Henry   | 1965-02-14 | red   | curry,fadge           |    1 |
+|  6 | Aaron   | 1968-09-17 | green | lutefisk,fadge        |    1 |
+|  7 | Joanna  | 1952-08-20 | green | lutefisk,fadge        |    0 |
+|  8 | Stephen | 1960-05-01 | white | burrito,pizza         |    0 |
++----+---------+------------+-------+-----------------------+------+
++----+---------+----------+--------------+
+| id | name    | service  | contact_name |
++----+---------+----------+--------------+
+|  1 | Sybil   | Twitter  | user1-twtrid |
+|  1 | Sybil   | Facebook | user1-fbid   |
+|  2 | Nancy   | Twitter  | user2-fbrid  |
+|  2 | Nancy   | Facebook | user2-msnid  |
+|  2 | Nancy   | LinkedIn | user2-lnkdid |
+|  4 | Lothair | LinkedIn | user4-lnkdid |
++----+---------+----------+--------------+
++----+---------+----------+--------------+
+| id | name    | service  | contact_name |
++----+---------+----------+--------------+
+|  1 | Sybil   | Twitter  | user1-twtrid |
+|  1 | Sybil   | Facebook | user1-fbid   |
+|  2 | Nancy   | Twitter  | user2-fbrid  |
+|  2 | Nancy   | Facebook | user2-msnid  |
+|  2 | Nancy   | LinkedIn | user2-lnkdid |
+|  4 | Lothair | LinkedIn | user4-lnkdid |
+|  3 | Ralph   | NULL     | NULL         |
+|  5 | Henry   | NULL     | NULL         |
+|  6 | Aaron   | NULL     | NULL         |
+|  7 | Joanna  | NULL     | NULL         |
+|  8 | Stephen | NULL     | NULL         |
++----+---------+----------+--------------+
++------+---------+----------+--------------+
+| id   | name    | service  | contact_name |
++------+---------+----------+--------------+
+|    1 | Sybil   | Twitter  | user1-twtrid |
+|    1 | Sybil   | Facebook | user1-fbid   |
+|    2 | Nancy   | Twitter  | user2-fbrid  |
+|    2 | Nancy   | Facebook | user2-msnid  |
+|    2 | Nancy   | LinkedIn | user2-lnkdid |
+|    4 | Lothair | LinkedIn | user4-lnkdid |
++------+---------+----------+--------------+
++------------+----------+--------------+
+| profile_id | service  | contact_name |
++------------+----------+--------------+
+|          2 | Twitter  | user2-fbrid  |
+|          2 | Facebook | user2-msnid  |
+|          2 | LinkedIn | user2-lnkdid |
++------------+----------+--------------+
++----+-------+------------+-------+----------------------+------+
+| id | name  | birth      | color | foods                | cats |
++----+-------+------------+-------+----------------------+------+
+|  1 | Sybil | 1970-04-13 | black | lutefisk,fadge,pizza |    0 |
++----+-------+------------+-------+----------------------+------+
++----+-------+------------+-------+---------------+------+
+| id | name  | birth      | color | foods         | cats |
++----+-------+------------+-------+---------------+------+
+|  3 | Ralph | 1973-11-02 | red   | eggroll,pizza |    4 |
++----+-------+------------+-------+---------------+------+
++-------+----------+
+| name  | birthday |
++-------+----------+
+| Henry | 02-14    |
++-------+----------+
++----+---------+------------+-------+-----------------------+------+
+| id | name    | birth      | color | foods                 | cats |
++----+---------+------------+-------+-----------------------+------+
+|  7 | Joanna  | 1952-08-20 | green | lutefisk,fadge        |    0 |
+|  8 | Stephen | 1960-05-01 | white | burrito,pizza         |    0 |
+|  4 | Lothair | 1963-07-04 | blue  | burrito,curry         |    5 |
+|  5 | Henry   | 1965-02-14 | red   | curry,fadge           |    1 |
+|  6 | Aaron   | 1968-09-17 | green | lutefisk,fadge        |    1 |
+|  2 | Nancy   | 1969-09-30 | white | burrito,curry,eggroll |    3 |
+|  1 | Sybil   | 1970-04-13 | black | lutefisk,fadge,pizza  |    0 |
+|  3 | Ralph   | 1973-11-02 | red   | eggroll,pizza         |    4 |
++----+---------+------------+-------+-----------------------+------+
++----+---------+------------+-------+---------------+------+
+| id | name    | birth      | color | foods         | cats |
++----+---------+------------+-------+---------------+------+
+|  4 | Lothair | 1963-07-04 | blue  | burrito,curry |    5 |
++----+---------+------------+-------+---------------+------+
++----+-------+------------+-------+-----------------------+------+
+| id | name  | birth      | color | foods                 | cats |
++----+-------+------------+-------+-----------------------+------+
+|  2 | Nancy | 1969-09-30 | white | burrito,curry,eggroll |    3 |
++----+-------+------------+-------+-----------------------+------+
++----+---------+------------+-------+----------------+------+
+| id | name    | birth      | color | foods          | cats |
++----+---------+------------+-------+----------------+------+
+|  6 | Aaron   | 1968-09-17 | green | lutefisk,fadge |    1 |
+|  5 | Henry   | 1965-02-14 | red   | curry,fadge    |    1 |
+|  7 | Joanna  | 1952-08-20 | green | lutefisk,fadge |    0 |
+|  4 | Lothair | 1963-07-04 | blue  | burrito,curry  |    5 |
++----+---------+------------+-------+----------------+------+
++--------------+
+| FOUND_ROWS() |
++--------------+
+|            8 |
++--------------+
++-------+------------+
+| name  | birth      |
++-------+------------+
+| Aaron | 1968-09-17 |
+| Nancy | 1969-09-30 |
+| Sybil | 1970-04-13 |
+| Ralph | 1973-11-02 |
++-------+------------+
