@@ -1,0 +1,36 @@
++-----------+-------------+--------------------------+
+| last_name | first_name  | street                   |
++-----------+-------------+--------------------------+
+| Baxter    | Bartholomew | 52 1rd Ave., Apt 202     |
+| Baxter    | Wallace     | 57 3rd Ave.              |
+| Brown     | Bartholomew | 432 River Run            |
+| Isaacson  | Jim         | 515 Fordam St., Apt. 917 |
+| McTavish  | Taylor      | 432 River Run            |
+| Pinter    | Marlene     | 9 Sunset Trail           |
++-----------+-------------+--------------------------+
++-----------+-------------+--------------------------+
+| last_name | first_name  | street                   |
++-----------+-------------+--------------------------+
+| Baxter    | Bartholomew | 52 1rd Ave., Apt 202     |
+| Baxter    | Wallace     | 57 3rd Ave.              |
+| Brown     | Bartholomew | 432 River Run            |
+| Isaacson  | Jim         | 515 Fordam St., Apt. 917 |
+| McTavish  | Taylor      | 432 River Run            |
+| Pinter    | Marlene     | 9 Sunset Trail           |
++-----------+-------------+--------------------------+
++----------+-----------+------------+
+| COUNT(*) | last_name | first_name |
++----------+-----------+------------+
+|        3 | Baxter    | Wallace    |
+|        2 | Pinter    | Marlene    |
++----------+-----------+------------+
++-----------+-------------+--------------------------+
+| last_name | first_name  | street                   |
++-----------+-------------+--------------------------+
+| Isaacson  | Jim         | 515 Fordam St., Apt. 917 |
+| McTavish  | Taylor      | 432 River Run            |
+| Brown     | Bartholomew | 432 River Run            |
+| Pinter    | Marlene     | 9 Sunset Trail           |
+| Baxter    | Wallace     | 57 3rd Ave., Apt 102     |
+| Baxter    | Bartholomew | 52 1rd Ave., Apt 202     |
++-----------+-------------+--------------------------+

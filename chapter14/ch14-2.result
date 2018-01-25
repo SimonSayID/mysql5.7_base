@@ -1,0 +1,20 @@
++----------------+
+| distinct names |
++----------------+
+|              6 |
++----------------+
++----------+-----------+------------+
+| COUNT(*) | last_name | first_name |
++----------+-----------+------------+
+|        2 | Pinter    | Marlene    |
+|        3 | Baxter    | Wallace    |
++----------+-----------+------------+
++-----------+------------+----------------------+
+| last_name | first_name | street               |
++-----------+------------+----------------------+
+| Baxter    | Wallace    | 57 3rd Ave.          |
+| BAXTER    | WALLACE    | 57 3rd Ave.          |
+| Baxter    | Wallace    | 57 3rd Ave., Apt 102 |
+| Pinter    | Marlene    | 9 Sunset Trail       |
+| Pinter    | Marlene    | 9 Sunset Trail       |
++-----------+------------+----------------------+
